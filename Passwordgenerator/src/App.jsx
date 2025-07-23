@@ -61,7 +61,7 @@ function App() {
             <input type="checkbox"
             defaultChecked={charallowed}
             onChange={()=>{
-              setNumberAllowed((prev) => !prev);
+              setCharAllowed((prev) => !prev);
             }}
             />
             <label className="text-white"> Character</label>
